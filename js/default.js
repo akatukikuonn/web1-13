@@ -18,5 +18,6 @@ document.getElementById('contdown')textContent =
   conuter[1] + '分' +
   conuter[0] + '秒' ;
 
-function getFileName(){
-  return window.location.href
+document.getElemenById('form').select.onchange = function(){
+   location.href = document.getElementById('form').select.value;
+}
