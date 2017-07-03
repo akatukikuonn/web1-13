@@ -58,12 +58,15 @@ function getCookie(c_name){
    var st="";
    var ed="";
    if(0 < document.cookie.length){
-      st=document.cookie.index0f(";",st);
+      st=document.cookie.indexOf(C_name + "=");
+    if(st!=-1){
+       st=st+c_name.length+1;
+      ed=doucument.cookie.indexof(";",st)
       if(ed ==-1) ed=document.cookie.length;
       return unescape(document.cookie.substring(st.ed));
    }
 }
-return "";
+    return "";
 }
 
 var last_date = getCookie('lastDate');
