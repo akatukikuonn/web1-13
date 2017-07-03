@@ -61,7 +61,7 @@ function getCookie(c_name){
       st=document.cookie.indexOf(c_name + "=");
     if(st!=-1){
        st=st+c_name.length+1;
-      ed=doucument.cookie.indexOf(";",st)
+      ed=doucument.cookie.indexOf(";",st);
       if(ed ==-1) ed=document.cookie.length;
       return unescape(document.cookie.substring(st.ed));
    }
