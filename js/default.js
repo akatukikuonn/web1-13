@@ -36,7 +36,7 @@ else{
 opt.selected = true;
 
 document.getElementById('form').select.onchange = function(){
-   location.href = document.getElementById('form).select.value;
+   location.href = document.getElementById('form').select.value;
  }
 
 
