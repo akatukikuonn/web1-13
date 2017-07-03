@@ -10,7 +10,7 @@ var separate_time = function(time){
 
 var now = new Date();
 var counter = separate_time(now);
-document.getElementById('contdown')textContent = 
+document.getElementById('countdown').textContent = 
   counter[5] + '年' +
   conuter[4] + '月' +
   conuter[3] + '日' +
