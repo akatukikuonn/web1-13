@@ -25,7 +25,7 @@ document.getElemenById('form').select.onchange = function(){
 function getFileName() {
    return window.location.href.split('/').pop();
 }
-var filename = get FileName();
+var filename = getFileName();
 var opt;
 if(filename  === 'other.html'){
    opt = document.queryselector('option[value="other.html"]');
