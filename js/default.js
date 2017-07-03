@@ -22,7 +22,7 @@ document.getElemenById('form').select.onchange = function(){
    location.href = document.getElementById('form').select.value;
 }
 
-function getFileName()={
+function getFileName() {
    return window.location.href.split('/').pop();
 }
 var filename = get FileName();
