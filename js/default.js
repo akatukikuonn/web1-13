@@ -56,5 +56,5 @@ else{document.getElementById('cookie').textContent ='はじめまして！';
     }
 
 var current_time = new Date();
-setCookie(7lastDate',currebt_time.toString(),7);
+setCookie(lastDate',currebt_time.toString(),7);
           
