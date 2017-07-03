@@ -12,11 +12,11 @@ var now = new Date();
 var counter = separate_time(now);
 document.getElementById('countdown').textContent = 
   counter[5] + '年' +
-  conuter[4] + '月' +
-  conuter[3] + '日' +
-  conuter[2] + '時' +
-  conuter[1] + '分' +
-  conuter[0] + '秒' ;
+  counter[4] + '月' +
+  counter[3] + '日' +
+  counter[2] + '時' +
+  counter[1] + '分' +
+  counter[0] + '秒' ;
 
 document.getElemenById('form').select.onchange = function(){
    location.href = document.getElementById('form').select.value;
